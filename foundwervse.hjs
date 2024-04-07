@@ -1,0 +1,10 @@
+public class StringContains {
+    public static void main(String[] args) {
+        String str = "Hello, World!";
+        if (str.contains("World")) {
+            System.out.println("Substring 'World' found.");
+        } else {
+            System.out.println("Substring 'World' not found.");
+        }
+    }
+}
